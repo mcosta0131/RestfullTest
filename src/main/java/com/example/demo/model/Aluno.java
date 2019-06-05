@@ -8,8 +8,7 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 
 @Document(collection = "aluno")
 public class Aluno {
-	
-	
+
 	@SuppressWarnings("unused")
 	private static final long serialVersionUID = 4175393554278686985L;
 

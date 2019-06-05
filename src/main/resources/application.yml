@@ -3,4 +3,4 @@ spring:
     host: localhost
     port: 27017
     #uri: #uri
-    database: estudo
+    database: desenvolvimento

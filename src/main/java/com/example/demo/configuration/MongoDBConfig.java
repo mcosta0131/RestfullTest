@@ -21,5 +21,5 @@ public class MongoDBConfig {
 
         return new MongoTemplate(mongoDbFactory, converter);
 	}
-
+ 
 }

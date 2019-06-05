@@ -7,15 +7,12 @@ import org.springframework.data.mongodb.repository.MongoRepository;
 
 import com.example.demo.model.Aluno;
 
-public interface AlunoRepository extends MongoRepository<Aluno, ObjectId>{
+public interface AlunoRepository extends MongoRepository<Aluno, ObjectId> {
 
 	Aluno findByMatricula(Long matricula);
-	List <Aluno> findByNome(String nome);
-	String	deleteAlunoByMatricula (Long matricula);
-	
-	
-	
-	 
-	
-	
+
+	List<Aluno> findByNome(String nome);
+
+	String deleteAlunoByMatricula(Long matricula);
+
 }
